@@ -15,7 +15,7 @@ import java.util.Date;
 public class MyThread extends Thread {
     @Override
     public void run() {
-        String ACCESS_TOKEN = "DplTTirmsi8AAAAAAAAAAdEQoecH1-T1P6gPSXRQca5uo8gLsQ1GG8cn-XEL4ytS";
+        String ACCESS_TOKEN = "Ну тут как бы понятно я думаю";
 
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/apps/!ScreenShot!").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
